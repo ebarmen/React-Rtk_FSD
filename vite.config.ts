@@ -8,7 +8,6 @@ export default defineConfig({
   plugins: [
     react(),
     tsconfigPaths(),
-    
   ].filter(Boolean),
   resolve: {
     alias: [{ find: '@', replacement: path.resolve(__dirname, 'src') }],
